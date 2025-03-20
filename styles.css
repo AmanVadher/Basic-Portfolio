@@ -53,7 +53,7 @@
   border: none;
   border-radius: 5rem;
   cursor: pointer;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
 }
 
 img {
@@ -170,7 +170,7 @@ nav {
 
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -255,7 +255,9 @@ nav {
   padding: 2rem 1rem;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
+  background-color: #1f1f1fe0;
+
 }
 
 .service__card span {
@@ -273,6 +275,7 @@ nav {
 .service__card p {
   color: var(--extra-light);
   line-height: 2rem;
+  
 }
 
 .service__card:hover{
@@ -291,7 +294,9 @@ nav {
   overflow: hidden;
   justify-content: center;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
+  background-color: #1f1f1fe0;
+
 }
 
 .portfolio__card img {
@@ -310,7 +315,7 @@ nav {
   justify-content: center;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
   background-color: #1f1f1fe0;
 }
 
@@ -353,13 +358,14 @@ nav {
   color: var(--white);
   background: rgba(255, 255, 255, 0.2);
   border-radius: 100%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
   transition: 0.3s;
 }
 
 .contact__socials a:hover {
   background: var(--gradient-2);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.215);
 }
 
 @media (width > 576px) {
@@ -405,7 +411,7 @@ nav {
   }
 
   .nav__links a:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
   }
 
   .nav__links li:last-child {
